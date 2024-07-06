@@ -1,0 +1,34 @@
+:root {
+    /* root color */
+    
+        /* color font */
+
+        --global-fonts: #000;
+        --primary-fonts: #fff;
+        --secondary-fonts: #21384299;
+        --accent-fonts: #FFD723;
+        --accent-secondary-fonts: #B6C197;
+        --primary-secondary-fonts :#D4D6D4;
+        --single-fonts: #B5C096;
+
+
+        /* color background */
+
+        --global-background: #fff;
+        --primary-background: #fafafa;
+        --secondary-background: #444a34;
+        --accent-background: #FFD723;
+
+        /* color border */
+
+        --secondary-border: #5D6544;
+
+    /* font size */
+
+       --xs-size-fonts: 14px; 
+       --s-size-fonts: 16px;
+       --m-size-fonts: 24px;
+       --l-size-fonts: 36px;
+       --xl-size-fonts: 60px;
+
+}
