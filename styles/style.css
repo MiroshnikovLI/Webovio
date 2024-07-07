@@ -34,7 +34,7 @@ html {
     min-block-size: 811px;
     padding-inline: 164px;
     padding-block-start: 24px;
-    background-image: url(../images/Slider.jpg);
+    background-image: url(./images/Slider.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -51,7 +51,7 @@ html {
     inline-size: 40px;
     block-size: 40px;
     background-color: var(--global-background);
-    background-image: url(../images/icons8-menu.svg);
+    background-image: url(./images/icons8-menu.svg);
     background-repeat: no-repeat;
     background-size: 50%;
     border-radius: 50%;
@@ -215,7 +215,7 @@ html {
     display: block;
     padding-inline: 165px;
     padding-block: 310px 30px;
-    background-image: url(../images/Bg.jpg);
+    background-image: url(./images/Bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -355,7 +355,7 @@ html {
     block-size: 33px;
     background-color: var(--secondary-background);
     border-radius: 50%;
-    background-image: url(../images/icon_social.png);
+    background-image: url(./images/icon_social.png);
     background-repeat: no-repeat;
     background-size: 160px;
 

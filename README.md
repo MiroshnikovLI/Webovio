@@ -1,5 +1,4 @@
 Данный проект тренировачный. В нем используется только HTML и CSS.
 
-
-https://github.com/MiroshnikovLI/Webovio.git
+https://html-preview.github.io/?url=https://github.com/MiroshnikovLI/Webovio/blob/main/index.html
 
