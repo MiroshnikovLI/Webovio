@@ -17,13 +17,20 @@ p,
 span {
     padding: 0;
     margin: 0;
-}
-body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+} 
+
+.html {
+    display: flex;
+    justify-content: center;
     margin: 0;
 }
 
+.page {
+    inline-size: 1440px;
+    min-inline-size: 1200px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
 
 .link {
     display: inline-block;
@@ -90,11 +97,11 @@ body {
 
 .header {
     display: block;
-    inline-size: 100%;
+    inline-size: 1440px;
     min-block-size: 811px;
     padding-inline: 164px;
     padding-block-start: 24px;
-    background-image: url(./images/Slider.jpg);
+    background-image: url(../images/Slider.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -111,7 +118,7 @@ body {
     inline-size: 40px;
     block-size: 40px;
     background-color: var(--global-background);
-    background-image: url(./images/icons8-menu.svg);
+    background-image: url(../images/icons8-menu.svg);
     background-repeat: no-repeat;
     background-size: 50%;
     border-radius: 50%;
@@ -189,7 +196,7 @@ body {
     inline-size: 100%;
     block-size: 100%;
     text-decoration: none;
-    background-image: url(./images/icon_client.png);
+    background-image: url(../images/icon_client.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -346,6 +353,11 @@ body {
     box-shadow: 50px 50px 100px 0px #00000025;
 }
 
+.blocks-comments-user--direction {
+    bottom: 30px;
+    left: 0;
+}
+
 .blocks-comments-user-mode {
     bottom: 18px;
 }
@@ -360,11 +372,6 @@ body {
     display: flex;
     align-items: center;
     gap: 19px;
-}
-
-.blocks-comments-user--direction {
-    bottom: 30px;
-    left: 0;
 }
 
 .blocks-comments-user__info__images {
@@ -396,7 +403,7 @@ body {
 }
 
 .info {
-    padding-inline: 166px;
+    padding-inline: 165px;
     padding-block-end: 323px;
 }
 
@@ -473,7 +480,7 @@ body {
     display: block;
     padding-inline: 165px;
     padding-block: 307px 30px;
-    background-image: url(./images/Bg.jpg);
+    background-image: url(../images/Bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -622,7 +629,7 @@ body {
     block-size: 33px;
     background-color: var(--secondary-background);
     border-radius: 50%;
-    background-image: url(./images/icon_social.png);
+    background-image: url(../images/icon_social.png);
     background-repeat: no-repeat;
     background-size: 160px;
 
